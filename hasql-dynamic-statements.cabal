@@ -29,9 +29,11 @@ library
     Hasql.DynamicStatements.Session
     Hasql.DynamicStatements.Snippet
     Hasql.DynamicStatements.Statement
-  other-modules:
     Hasql.DynamicStatements.Prelude
     Hasql.DynamicStatements.Snippet.Defs
+--  other-modules:
+--    Hasql.DynamicStatements.Prelude
+--    Hasql.DynamicStatements.Snippet.Defs
   build-depends:
     base >=4.12 && <5,
     bytestring >=0.10 && <0.12,
